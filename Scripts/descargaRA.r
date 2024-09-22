@@ -49,7 +49,7 @@ descargaRA <- function(base = c(2023),file_path = getwd() ) {
         # Eliminar el archivo ZIP después de descomprimir
         file.remove(destfile)
         cat("Eliminado:",  paste0(file_path, "/RA/", i),
-            ".zip\nSe ha creado el CSV.\nBuscar el archivo en:",paste0(file_path, "/RA/", i) )
+            ".zip\nSe ha creado el CSV.\nBuscar el archivo en:",paste0(file_path, "RA/", i) )
         
       }, error = function(e) {
         cat("Error al descomprimir:",

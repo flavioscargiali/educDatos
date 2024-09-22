@@ -293,5 +293,8 @@ pivotMatricula <- function(anio_base = 2023, file = "") {
   
   rownames(final) <- NULL
   
+  names(final) <- c("periodo","id","anios", "provincia", "sector",
+                    "ambito", "nivel","matricula", "varones", "repitencia", "sobreedad","secciones")
+  
   assign("matricula", final, envir = .GlobalEnv) 
 }
