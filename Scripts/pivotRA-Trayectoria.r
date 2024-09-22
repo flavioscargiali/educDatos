@@ -81,6 +81,8 @@ pivotMatricula <- function(anio_base = 2023, file = "") {
         "snu_inet"
       )
     
+    names(ra_matricula)[[1]] <- "ID1"
+    
     base <- ra_matricula[, c("ID1",
                              "provincia",
                              "sector",
