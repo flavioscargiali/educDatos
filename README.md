@@ -23,7 +23,7 @@ descargaRA(
 ```{r}
 pivotMatricula(
   anio_base = 2013, 
-  file = "C:/Users/flavi/Desktop/Educacion/RA/")
+  file = "")
 ```
 
 -   *anio_base:* especificar el año de la tabla
