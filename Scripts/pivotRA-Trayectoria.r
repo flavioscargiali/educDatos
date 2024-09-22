@@ -293,4 +293,3 @@ pivotMatricula <- function(anio_base = 2023, file = "") {
   
   assign("matricula", final, envir = .GlobalEnv) 
 }
-
